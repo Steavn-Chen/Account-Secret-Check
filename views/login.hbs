@@ -1,0 +1,34 @@
+<div class="container loginPage">
+  <div class="title">
+    <h2>Account Login</h1>
+      <hr>
+  </div>
+  <form action="/login" method="post" class="form-group mt-5">
+    <div class="form-group">
+      <label for="email">Email :</label>
+      <input type="email" name="email" id="name" placeholder="name" class="form-control"  required>
+    </div>
+    <div class="form-group mt-3">
+      <label for="password" class="">Password :</label>
+      <input type="password" name="password" id="password" placeholder="password" class="form-control"
+        required>
+    </div>
+    {{!-- 第三種 --}}
+    {{!-- {{#if message}}  
+    <div class="alert alert-danger mt-5" role="alert" >
+     {{ message }}
+    </div>
+    {{/if}}   --}}
+
+    {{!-- 第四種 --}}
+    {{#if message}}
+    <div class="alert alert-danger mt-5" role="alert" >
+      <h3>你輸入的密碼錯誤</h1>
+    </div>
+    {{/if}} 
+
+    <div class="form-group my-5 d-flex justify-content-center">
+      <button type="submit" class="btn btn-info">Sign in</button>
+    </div>
+  </form>
+</div>

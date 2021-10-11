@@ -1,0 +1,24 @@
+body {
+  /* background-color: gray; */
+}
+
+.loginPage {
+  padding: 20px;
+  margin-top: 150px;
+  /* margin:0 auto; */
+  width: 30%;
+  /* height: 60%; */
+  background-color:rgb(228, 242, 245);
+  border: 1px solid gray;
+  /* color: yellowgreen; */
+  border-radius: 30px;
+}
+
+
+.errorMessage, .checkMessage{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 80px
+}
+
