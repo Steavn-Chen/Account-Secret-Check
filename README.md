@@ -1,7 +1,7 @@
 ### 啓動方式
  
 - 將專案clone到本地端
-
+https://github.com/Steavn-Chen/Account-Secret-Check.git
 
 - 進入到專案資料夾
 
