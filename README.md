@@ -1,4 +1,6 @@
 ### 啓動方式
+
+![image](https://github.com/Steavn-Chen/Account-Secret-Check/blob/master/%E6%93%B7%E5%8F%962-3A10.PNG)
  
 - 將專案clone到本地端
 
